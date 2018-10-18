@@ -1,0 +1,177 @@
+[debug] [2018-10-18T07:49:36.884Z] ----------------------------------------------------------------------
+[debug] [2018-10-18T07:49:36.886Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only functions,hosting
+[debug] [2018-10-18T07:49:36.886Z] CLI Version:   5.1.1
+[debug] [2018-10-18T07:49:36.886Z] Platform:      darwin
+[debug] [2018-10-18T07:49:36.886Z] Node Version:  v8.11.4
+[debug] [2018-10-18T07:49:36.886Z] Time:          Thu Oct 18 2018 14:49:36 GMT+0700 (+07)
+[debug] [2018-10-18T07:49:36.886Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-18T07:49:36.897Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-18T07:49:36.897Z] > authorizing via signed-in user
+[debug] [2018-10-18T07:49:36.897Z] [iam] checking project minniechantpakpimon for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2018-10-18T07:49:36.899Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/minniechantpakpimon:testIamPermissions  
+
+[debug] [2018-10-18T07:49:38.173Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-18T07:49:38.174Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/minniechantpakpimon  
+ 
+[debug] [2018-10-18T07:49:38.603Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'minniechantpakpimon'...
+[info] 
+[info] i  deploying functions, hosting
+[debug] [2018-10-18T07:49:42.496Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "",
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.5",
+    "@fortawesome/fontawesome-free-brands": "^5.0.10",
+    "@fortawesome/fontawesome-pro-light": "^5.0.10",
+    "@fortawesome/fontawesome-pro-regular": "^5.0.10",
+    "@fortawesome/fontawesome-pro-solid": "^5.0.10",
+    "@fortawesome/vue-fontawesome": "^0.0.22",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/runtime": "^7.0.0",
+    "@nuxtjs/axios": "^5.0.0",
+    "@nuxtjs/component-cache": "^1.1.2",
+    "@nuxtjs/google-analytics": "^2.0.2",
+    "@nuxtjs/sitemap": "^0.1.1",
+    "@nuxtjs/toast": "^3.0.1",
+    "axios": "^0.18.0",
+    "express": "^4.15.3",
+    "clone": "^2.1.1",
+    "debug": "^3.1.0",
+    "firebase-admin": "~6.0.0",
+    "firebase-functions": "^2.0.5",
+    "moment": "^2.22.1",
+    "nuxt-babel": "^0.1.2",
+    "lodash": "^4.17.10",
+    "nuxt-edge": "2.0.0-25476008.ba5c979",
+    "nuxt-i18n": "^4.1.0",
+    "nuxt-rfg-icon": "^0.5.0",
+    "vee-validate": "^2.0.6",
+    "vue-awesome-swiper": "^3.1.3",
+    "vue-float-label": "^1.6.1",
+    "vue-js-modal": "^1.3.12",
+    "vue-lazyload": "^1.2.2",
+    "vue-moment": "^3.2.0",
+    "vue-scroll-reveal": "1.0.7",
+    "vue-scrollto": "^2.11.0",
+    "vue2-google-maps": "^0.10.2",
+    "vue2-transitions": "^0.2.3",
+    "vuejs-datepicker": "^1.5.3",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.0",
+    "eslint-plugin-promise": "^3.6.0"
+  },
+  "private": true,
+  "engines": {
+    "node": "8"
+  }
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2018-10-18T07:49:42.497Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/minniechantpakpimon?view=CONSUMER_VIEW  
+ 
+[debug] [2018-10-18T07:49:42.497Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/minniechantpakpimon?view=CONSUMER_VIEW  
+ 
+[debug] [2018-10-18T07:49:44.456Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-18T07:49:44.499Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: all necessary APIs are enabled
+[debug] [2018-10-18T07:49:44.499Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/minniechantpakpimon  
+ 
+[debug] [2018-10-18T07:49:45.754Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-18T07:49:45.755Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/719755193627:getServerAppConfig  
+ 
+[debug] [2018-10-18T07:49:46.159Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-18T07:49:46.160Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/minniechantpakpimon/versions  
+
+[debug] [2018-10-18T07:49:48.061Z] <<< HTTP RESPONSE 200
+[info] i  functions: preparing functions directory for uploading...
+[info] i  functions: packaged functions (4.8 MB) for uploading
+[debug] [2018-10-18T07:49:49.457Z] >>> HTTP REQUEST POST https://cloudfunctions.googleapis.com/v1/projects/minniechantpakpimon/locations/us-central1/functions:generateUploadUrl  
+ 
+[debug] [2018-10-18T07:49:50.375Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-18T07:49:50.376Z] >>> HTTP REQUEST PUT https://storage.googleapis.com/gcf-upload-us-central1-3ef9cca2-9048-43a2-8238-da4517d22f08/518d14e2-e854-4241-ae46-31aaddb6b0ac.zip?GoogleAccessId=service-719755193627@gcf-admin-robot.iam.gserviceaccount.com&Expires=1539850790&Signature=PNyxcFCjXbAoAEN6%2FXRcwd1QX4OqSZYX97wC2eTMz9r8mBUwKNBuFclw5055%2FCF%2Fy3z6i0WMRIKaM6YJVyt%2Bpu6%2B7uzWAKDiZB6tqQphpLZHVRiZbMaRe96WsUs3UY0wpPGsbMGmUlyZ2CvXu2b9Q5bzElQfBWU5BOj1tMkMqlMAlezl541K26oMGB%2BgUG4AdMog1f5sk7%2BeURwKSn64LpNNk2VJ6kzBu8ZiziLoQAOyPpjk7pXTvL5Dd2X8XKVVq0Q6vpUFQMm0Uo4vtj8I%2Br2q3dI36TNs8Ul68ntZA8MN3FDvP1H2lo58CiEZLVIf%2BdAegIJFF9H3V3RucIJ28g%3D%3D  
+
+[debug] [2018-10-18T07:49:55.177Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: functions folder uploaded successfully
+[info] i  hosting[minniechantpakpimon]: beginning deploy...
+[info] i  hosting[minniechantpakpimon]: found 152 files in nuxt/dist
+[debug] [2018-10-18T07:49:55.971Z] [hosting] hash cache [bnV4dC9kaXN0] stored for 152 files
+[debug] [2018-10-18T07:49:55.971Z] [hosting][hash queue][FINAL]
+[debug] [2018-10-18T07:49:55.971Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/minniechantpakpimon/versions/21d49c8039ce1270:populateFiles  
+ <request body omitted>
+[debug] [2018-10-18T07:49:57.981Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-18T07:49:57.988Z] [hosting][populate queue][FINAL]
+[debug] [2018-10-18T07:49:57.988Z] [hosting] uploads queued: 14
+[debug] [2018-10-18T07:50:01.860Z] [hosting][upload queue][FINAL]
+[info] ✔  hosting[minniechantpakpimon]: file upload complete
+[debug] [2018-10-18T07:50:01.861Z] [hosting] deploy completed after 6682ms
+[debug] [2018-10-18T07:50:02.084Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/projects/minniechantpakpimon/locations/-/functions  
+ 
+[debug] [2018-10-18T07:50:02.938Z] <<< HTTP RESPONSE 200
+[info] i  functions: updating Node.js 8 function ssrapp(us-central1)...
+[debug] [2018-10-18T07:50:02.942Z] Trigger is:  {"httpsTrigger":{}}
+[debug] [2018-10-18T07:50:02.943Z] >>> HTTP REQUEST PATCH https://cloudfunctions.googleapis.com/v1/projects/minniechantpakpimon/locations/us-central1/functions/ssrapp {"updateMask":"sourceUploadUrl,name,labels,runtime,httpsTrigger"} 
+
+[debug] [2018-10-18T07:50:03.406Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-18T07:50:03.409Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/projects/minniechantpakpimon/locations/-/functions  
+ 
+[debug] [2018-10-18T07:50:04.020Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-18T07:50:04.021Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/bWlubmllY2hhbnRwYWtwaW1vbi91cy1jZW50cmFsMS9zc3JhcHAvWlRVWVBJdUp2eU0  
+ 
+[debug] [2018-10-18T07:50:04.475Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-18T07:50:06.476Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/bWlubmllY2hhbnRwYWtwaW1vbi91cy1jZW50cmFsMS9zc3JhcHAvWlRVWVBJdUp2eU0  
+ 
+[debug] [2018-10-18T07:50:06.890Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-18T07:50:08.892Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/bWlubmllY2hhbnRwYWtwaW1vbi91cy1jZW50cmFsMS9zc3JhcHAvWlRVWVBJdUp2eU0  
+ 
+[debug] [2018-10-18T07:50:09.653Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-18T07:50:11.659Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/bWlubmllY2hhbnRwYWtwaW1vbi91cy1jZW50cmFsMS9zc3JhcHAvWlRVWVBJdUp2eU0  
+ 
+[debug] [2018-10-18T07:50:12.042Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-18T07:50:14.043Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/bWlubmllY2hhbnRwYWtwaW1vbi91cy1jZW50cmFsMS9zc3JhcHAvWlRVWVBJdUp2eU0  
+ 
+[debug] [2018-10-18T07:50:14.423Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-18T07:50:16.426Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/bWlubmllY2hhbnRwYWtwaW1vbi91cy1jZW50cmFsMS9zc3JhcHAvWlRVWVBJdUp2eU0  
+ 
+[debug] [2018-10-18T07:50:16.799Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-18T07:50:18.802Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/bWlubmllY2hhbnRwYWtwaW1vbi91cy1jZW50cmFsMS9zc3JhcHAvWlRVWVBJdUp2eU0  
+ 
+[debug] [2018-10-18T07:50:19.221Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-18T07:50:21.222Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/bWlubmllY2hhbnRwYWtwaW1vbi91cy1jZW50cmFsMS9zc3JhcHAvWlRVWVBJdUp2eU0  
+ 
+[debug] [2018-10-18T07:50:21.906Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-18T07:50:23.910Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/bWlubmllY2hhbnRwYWtwaW1vbi91cy1jZW50cmFsMS9zc3JhcHAvWlRVWVBJdUp2eU0  
+ 
+[debug] [2018-10-18T07:50:24.739Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-18T07:50:26.744Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/bWlubmllY2hhbnRwYWtwaW1vbi91cy1jZW50cmFsMS9zc3JhcHAvWlRVWVBJdUp2eU0  
+ 
+[debug] [2018-10-18T07:50:27.465Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-18T07:50:29.470Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/bWlubmllY2hhbnRwYWtwaW1vbi91cy1jZW50cmFsMS9zc3JhcHAvWlRVWVBJdUp2eU0  
+ 
+[debug] [2018-10-18T07:50:30.242Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-18T07:50:32.243Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/bWlubmllY2hhbnRwYWtwaW1vbi91cy1jZW50cmFsMS9zc3JhcHAvWlRVWVBJdUp2eU0  
+ 
+[debug] [2018-10-18T07:50:32.915Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-18T07:50:34.920Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/bWlubmllY2hhbnRwYWtwaW1vbi91cy1jZW50cmFsMS9zc3JhcHAvWlRVWVBJdUp2eU0  
+ 
+[debug] [2018-10-18T07:50:35.409Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-18T07:50:37.414Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/bWlubmllY2hhbnRwYWtwaW1vbi91cy1jZW50cmFsMS9zc3JhcHAvWlRVWVBJdUp2eU0  
+ 
+[debug] [2018-10-18T07:50:38.260Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-18T07:50:40.263Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/bWlubmllY2hhbnRwYWtwaW1vbi91cy1jZW50cmFsMS9zc3JhcHAvWlRVWVBJdUp2eU0  
+ 
+[debug] [2018-10-18T07:50:40.667Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-18T07:50:42.672Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/bWlubmllY2hhbnRwYWtwaW1vbi91cy1jZW50cmFsMS9zc3JhcHAvWlRVWVBJdUp2eU0  
+ 
+[debug] [2018-10-18T07:50:43.347Z] <<< HTTP RESPONSE 200

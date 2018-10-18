@@ -1,0 +1,180 @@
+<template>
+    <div class="work3 col-8 _mg-at">
+        <h1 class="_fs-3-md _fs-4">PHOTOGRAPHY</h1>
+        <!-- digital -->
+        <div class="col-10 _alit-ct _mg-at">
+                <h2 class="_fs-4-md _fs-5">DIGITAL</h2>
+                <p class="_fs-5-md _fs-6-sm _fs-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt consectetur commodi illum ea blanditiis facilis cumque. Illo cumque inventore officiis molestiae aspernatur quibusdam voluptatibus eum ipsum, ab, odio, eos quas?
+                </p>
+        </div>
+       <div class="row _mg-at digital">
+            <div class="col-lg-6 col-md-12 col-sm-12 _tal-ct _dp-b">
+            <img src="~assets/images/minnielogo.png" alt="">
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 _tal-ct _dp-b">
+            <img src="~assets/images/minnielogo.png" alt="">
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 _tal-ct _dp-b">
+            <img src="~assets/images/minnielogo.png" alt="">
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 _tal-ct _dp-b">
+            <img src="~assets/images/minnielogo.png" alt="">
+            </div>
+        </div>
+
+        <!-- film -->
+        <div class="col-10 _alit-ct _mg-at">
+                <h2 class="_fs-4-md _fs-5">film</h2>
+                <p class="_fs-5-md _fs-6-sm _fs-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt consectetur commodi illum ea blanditiis facilis cumque. Illo cumque inventore officiis molestiae aspernatur quibusdam voluptatibus eum ipsum, ab, odio, eos quas?
+                </p>
+        </div>
+
+        <!-- using template for card -->
+        <div class="row film">
+            <piccard pictext="" imageUrl="./images/film/1.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/2.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/3.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/4.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/6.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/7.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/8.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/10.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/11.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/12.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/13.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/14.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/15.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/16.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/17.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/18.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/19.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/20.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/21.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/22.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/23.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/24.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/25.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/26.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/27.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/28.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/29.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/30.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/31.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/32.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/33.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/34.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/35.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/36.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/37.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/38.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/39.jpg"/>
+            <!-- <piccard pictext="" imageUrl="./images/film/40.jpg"/> -->
+            <piccard pictext="" imageUrl="./images/film/41.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/42.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/43.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/44.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/45.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/46.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/47.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/48.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/49.jpg"/>
+            <!-- <piccard pictext="" imageUrl="./images/film/50.jpg"/> -->
+            <piccard pictext="" imageUrl="./images/film/51.jpg"/>
+            <!-- <piccard pictext="" imageUrl="./images/film/52.jpg"/> -->
+            <piccard pictext="" imageUrl="./images/film/53.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/54.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/55.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/56.jpg"/>
+            <piccard pictext="" imageUrl="./images/film/57.jpg"/>
+        </div>
+       
+        <div class="row _pd-64px">
+            <div class="bio-button -dark _mg-at">
+                <nuxt-link to="/contact"><p>ASK FOR QUOTATION!</p></nuxt-link>
+            </div>
+        </div>
+
+        <div class="row _pd-64px">
+            <Work/>
+        </div>
+
+    </div>
+</template>
+
+<script>
+import Work from '~/components/Work'
+import piccard from '~/components/piccard'
+export default { 
+  components: {Work, piccard},
+  head () {
+    return {
+      title: 'Minnie\'s Photo'
+    }
+  }
+}
+</script>
+
+
+<style lang="scss" scoped>
+
+.work3 {
+    background-color: #ffa69e;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 600;
+    padding: 10% 0 5% 0;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    color: white;
+}
+
+.digital {
+    padding: 2%;
+}
+
+.digital img{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    padding: 5%;
+}
+
+.film {
+    padding: 2%;
+}
+
+.film img{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    padding: 5%;
+}
+
+.bio-button p{
+    color: white;
+    &:hover {
+        color: #ffa69e;
+    }
+}
+
+.film1 {
+    display: block;
+    height: 256px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(~assets/images/minnielogo.png)
+}
+
+
+</style>
