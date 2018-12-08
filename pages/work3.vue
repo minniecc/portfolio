@@ -8,32 +8,27 @@
     </div>
     <!-- using template for card -->
     <div class="row col-12 _mg-at film">
-      <piccard pictext imageUrl="./images/film/1.jpg"/>
-      <piccard pictext imageUrl="./images/film/2.jpg"/>
-      <piccard pictext imageUrl="./images/film/3.jpg"/>
-      <piccard pictext imageUrl="./images/film/4.jpg"/>
-      <!-- <piccard pictext imageUrl="./images/film/6.jpg"/> -->
-      <piccard pictext imageUrl="./images/film/7.jpg"/>
-      <piccard pictext imageUrl="./images/film/8.jpg"/>
-      <piccard pictext imageUrl="./images/film/10.jpg"/>
-      <piccard pictext imageUrl="./images/film/11.jpg"/>
-      <piccard pictext imageUrl="./images/film/12.jpg"/>
-      <piccard pictext imageUrl="./images/film/13.jpg"/>
-      <piccard pictext imageUrl="./images/film/14.jpg"/>
-      <piccard pictext imageUrl="./images/film/15.jpg"/>
-      <piccard pictext imageUrl="./images/film/16.jpg"/>
-      <piccard pictext imageUrl="./images/film/17.jpg"/>
-      <piccard pictext imageUrl="./images/film/18.jpg"/>
-      <piccard pictext imageUrl="./images/film/19.jpg"/>
-      <piccard pictext imageUrl="./images/film/20.jpg"/>
-      <piccard pictext imageUrl="./images/film/21.jpg"/>
-      <!-- <piccard pictext="" imageUrl="./images/film/22.jpg"/> -->
-      <piccard pictext imageUrl="./images/film/23.jpg"/>
-      <piccard pictext imageUrl="./images/film/24.jpg"/>
-      <piccard pictext imageUrl="./images/film/25.jpg"/>
-      <piccard pictext imageUrl="./images/film/26.jpg"/>
-      <piccard pictext imageUrl="./images/film/27.jpg"/>
-      <piccard pictext imageUrl="./images/film/28.jpg"/>
+      <piccard pictext imageUrl="./images/dp/dp4.jpg"/>
+      <piccard pictext imageUrl="./images/dp/dp6.jpg"/>
+      <piccard pictext imageUrl="./images/dp/dp7.jpg"/>
+      <piccard pictext imageUrl="./images/dp/dp8.png"/>
+      <piccard pictext imageUrl="./images/dp/dp10.png"/>
+      <piccard pictext imageUrl="./images/dp/dp11.png"/>
+      <piccard pictext imageUrl="./images/dp/dp12.png"/>
+      <piccard pictext imageUrl="./images/dp/dp13.png"/>
+      <piccard pictext imageUrl="./images/dp/dp14.png"/>
+      <piccard pictext imageUrl="./images/dp/dp15.png"/>
+      <piccard pictext imageUrl="./images/dp/dp16.png"/>
+      <piccard pictext imageUrl="./images/dp/dp17.png"/>
+      <piccard pictext imageUrl="./images/dp/dp18.png"/>
+      <piccard pictext imageUrl="./images/dp/dp19.png"/>
+      <piccard pictext imageUrl="./images/dp/dp20.png"/>
+      <piccard pictext imageUrl="./images/dp/dp21.png"/>
+      <piccard pictext imageUrl="./images/dp/dp22.png"/>
+      <piccard pictext imageUrl="./images/dp/dp23.png"/>
+      <piccard pictext imageUrl="./images/dp/dp1.jpg"/>
+      <piccard pictext imageUrl="./images/dp/dp2.jpg"/>
+      <piccard pictext imageUrl="./images/dp/dp3.jpg"/>
     </div>
 
     <!-- film -->
@@ -147,6 +142,10 @@ h2 {
   letter-spacing: 0.1em;
   font-weight: 600;
   color: white;
+}
+
+p {
+  font-family: "Muli", sans-serif;
 }
 
 .digital {

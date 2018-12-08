@@ -95,6 +95,10 @@ h2 {
   color: white;
 }
 
+p {
+  font-family: "Muli", sans-serif;
+}
+
 .abouttext {
   padding: 5% 5% 5% 2%;
 }

@@ -1,111 +1,82 @@
 <template>
   <div class="work4 col-lg-8 col-md-8 col-sm-10 col-10 _mg-at">
     <h1 class="_fs-3-md _fs-4">PERSONAL PROJECT</h1>
-    <p
-      class="_fs-5-md _fs-6-sm _fs-7"
-    >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt consectetur commodi illum ea blanditiis facilis cumque. Illo cumque inventore officiis molestiae aspernatur quibusdam voluptatibus eum ipsum, ab, odio, eos quas?</p>
-
+    <!-- about 1 -->
     <div class="row">
-      <!-- logo -->
-      <div class="textbrand col-12 _alit-ct">
-        <h2 class="_fs-4-md _fs-5">CARDS & GIFTS</h2>
-        <p
-          class="_fs-5-md _fs-6-sm _fs-7"
-        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt consectetur commodi illum ea blanditiis facilis cumque. Illo cumque inventore officiis molestiae aspernatur quibusdam voluptatibus eum ipsum, ab, odio, eos quas?</p>
+      <div class="col-11 _alit-ct _mg-at _h-512px-lg _h-512px-md _h-512px-sm _h-256px _bgcl-white">
+        <div class="workbrand"></div>
       </div>
 
-      <div class="row _mg-at logo">
-        <div class="col-lg-2 col-md-3 col-sm-6 _tal-ct _dp-b">
-          <img src="~assets/images/minnielogo.png" alt>
-        </div>
-        <div class="col-lg-2 col-md-3 col-sm-6 _tal-ct _dp-b">
-          <img src="~assets/images/minnielogo.png" alt>
-        </div>
-        <div class="col-lg-2 col-md-3 col-sm-6 _tal-ct _dp-b">
-          <img src="~assets/images/minnielogo.png" alt>
-        </div>
-        <div class="col-lg-2 col-md-3 col-sm-6 _tal-ct _dp-b">
-          <img src="~assets/images/minnielogo.png" alt>
-        </div>
-        <div class="col-lg-2 col-md-3 col-sm-6 _tal-ct _dp-b">
-          <img src="~assets/images/minnielogo.png" alt>
-        </div>
-        <div class="col-lg-2 col-md-3 col-sm-6 _tal-ct _dp-b">
-          <img src="~assets/images/minnielogo.png" alt>
-        </div>
+      <!-- logo -->
+      <div class="textbrand col-12 _tal-ct _mg-at _alit-ct">
+        <h2 class="_fs-4-md _fs-5">Illustration</h2>
       </div>
-      <div class="row _mg-at logo">
-        <div class="col-lg-2 col-md-3 col-sm-6 _tal-ct _dp-b">
-          <img src="~assets/images/minnielogo.png" alt>
-        </div>
-        <div class="col-lg-2 col-md-3 col-sm-6 _tal-ct _dp-b">
-          <img src="~assets/images/minnielogo.png" alt>
-        </div>
-        <div class="col-lg-2 col-md-3 col-sm-6 _tal-ct _dp-b">
-          <img src="~assets/images/minnielogo.png" alt>
-        </div>
-        <div class="col-lg-2 col-md-3 col-sm-6 _tal-ct _dp-b">
-          <img src="~assets/images/minnielogo.png" alt>
-        </div>
-        <div class="col-lg-2 col-md-3 col-sm-6 _tal-ct _dp-b">
-          <img src="~assets/images/minnielogo.png" alt>
-        </div>
-        <div class="col-lg-2 col-md-3 col-sm-6 _tal-ct _dp-b">
-          <img src="~assets/images/minnielogo.png" alt>
-        </div>
-      </div>
+
+      <brandcard
+        logo1="/images/lg/logo16.jpg"
+        logo2="/images/lg/logo2.png"
+        logo3="/images/lg/logo18.png"
+        logo4="/images/lg/logo22.png"
+      />
+
+      <brandcard
+        logo1="/images/lg/logo17.png"
+        logo2="/images/lg/logo13.png"
+        logo3="/images/lg/logo12.png"
+        logo4="/images/lg/logo8.png"
+      />
+
+      <brandcard
+        logo1="/images/lg/logo7.png"
+        logo2="/images/lg/logo14.png"
+        logo3="/images/lg/logo11.png"
+        logo4="/images/lg/logo19.png"
+      />
 
       <!-- Re-branding -->
-      <div class="textbrand col-12 _dp-b _alit-ct _jtfit-ct">
-        <h2 class="_fs-4-md _fs-5">Wedding Invitation</h2>
-        <p
-          class="_fs-5-md _fs-6-sm _fs-7"
-        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt consectetur commodi illum ea blanditiis facilis cumque. Illo cumque inventore officiis molestiae aspernatur quibusdam voluptatibus eum ipsum, ab, odio, eos quas?</p>
+      <div class="textbrand col-11 _tal-ct _mg-at _dp-b _alit-ct _jtfit-ct">
+        <h2 class="_fs-4-md _fs-5">Card design</h2>
       </div>
 
-      <div class="row _mg-at rebrand">
-        <div class="col-lg-3 col-md-6 col-sm-6 _tal-ct _dp-b">
-          <img src="~assets/images/minnielogo.png" alt>
+      <div class="row col-11 _mg-at businesscard">
+        <div class="col-lg-6 col-md-12 col-sm-12 _tal-ct _dp-b">
+          <img src="/images/bc/bc2.jpg" alt>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 _tal-ct _dp-b">
-          <img src="~assets/images/minnielogo.png" alt>
+        <div class="col-lg-6 col-md-12 col-sm-12 _tal-ct _dp-b">
+          <img src="/images/bc/bc1.jpg" alt>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 _tal-ct _dp-b">
-          <img src="~assets/images/minnielogo.png" alt>
+        <div class="col-lg-6 col-md-12 col-sm-12 _tal-ct _dp-b">
+          <img src="/images/bc/bc3.jpg" alt>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 _tal-ct _dp-b">
-          <img src="~assets/images/minnielogo.png" alt>
+        <div class="col-lg-6 col-md-12 col-sm-12 _tal-ct _dp-b">
+          <img src="/images/bc/bc4.jpg" alt>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 _tal-ct _dp-b">
+          <img src="/images/bc/paypoint-01.png" alt>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 _tal-ct _dp-b">
+          <img src="/images/bc/paypoint-02.png" alt>
         </div>
       </div>
 
       <!-- business card -->
-      <div class="textbrand col-12 _dp-b _alit-ct _jtfit-ct">
-        <h2 class="_fs-4-md _fs-5">illustration</h2>
-        <p
-          class="_fs-5-md _fs-6-sm _fs-7"
-        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt consectetur commodi illum ea blanditiis facilis cumque. Illo cumque inventore officiis molestiae aspernatur quibusdam voluptatibus eum ipsum, ab, odio, eos quas?</p>
+      <div class="textbrand col-10 _tal-ct _mg-at _dp-b _alit-ct _jtfit-ct">
+        <h2 class="_fs-4-md _fs-5">Character design</h2>
       </div>
 
-      <div class="row _mg-at businesscard">
-        <div class="col-lg-6 col-md-12 col-sm-12 _tal-ct _dp-b">
-          <img src="~assets/images/minnielogo.png" alt>
-        </div>
-        <div class="col-lg-6 col-md-12 col-sm-12 _tal-ct _dp-b">
-          <img src="~assets/images/minnielogo.png" alt>
-        </div>
-        <div class="col-lg-6 col-md-12 col-sm-12 _tal-ct _dp-b">
-          <img src="~assets/images/minnielogo.png" alt>
-        </div>
-        <div class="col-lg-6 col-md-12 col-sm-12 _tal-ct _dp-b">
-          <img src="~assets/images/minnielogo.png" alt>
-        </div>
+      <div class="col-11 _alit-ct _mg-at _h-512px-lg _h-512px-md _h-512px-sm _h-256px _bgcl-white">
+        <div class="character1"></div>
+      </div>
+
+      <div class="col-11 _alit-ct _mg-at _h-512px-lg _h-512px-md _h-512px-sm _h-256px _bgcl-white">
+        <div class="character2"></div>
       </div>
     </div>
 
     <div class="row _pd-64px">
       <div class="bio-button -dark _mg-at">
         <nuxt-link to="/contact">
-          <p>CONTACT ME!</p>
+          <p>GET IN TOUCH</p>
         </nuxt-link>
       </div>
     </div>
@@ -116,18 +87,19 @@
   </div>
 </template>
 
+
 <script>
 import Work from "~/components/Work";
+import Brandcard from "~/components/brandcard";
 export default {
-  components: { Work },
+  components: { Work, Brandcard },
   head() {
     return {
-      title: "Branding"
+      title: "Minnie's Personal Projects"
     };
   }
 };
 </script>
-
 
 <style lang="scss" scoped>
 .work4 {
@@ -137,7 +109,7 @@ export default {
 h1 {
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
   font-weight: 600;
   padding: 10% 0 5% 0;
   color: white;
@@ -146,58 +118,61 @@ h1 {
 h2 {
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   font-weight: 600;
   color: white;
+}
+
+p {
+  font-family: "Muli", sans-serif;
 }
 
 .textbrand {
   padding: 5%;
 }
 
-.workbrand img {
-  display: block;
+.workbrand {
   margin: auto;
-  max-width: 90%;
-  padding: 5%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(~assets/images/branding-web.png);
+  height: 100%;
 }
 
-.logo {
-  padding: 2%;
-}
-.logo img {
-  display: block;
+.character1 {
   margin: auto;
-  max-width: 100%;
-  padding: 5%;
-  &:hover {
-    position: absolute;
-    z-index: 5;
-    max-width: 200%;
-    // how to add transition?
-  }
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(/images/pp/stickerline-01.png);
+  height: 100%;
+}
+
+.character2 {
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(/images/pp/stickerline-02.png);
+  height: 100%;
 }
 
 .rebrand {
   padding: 2%;
 }
 
-.rebrand img {
-  display: block;
-  margin: auto;
-  max-width: 100%;
-  padding: 5%;
-}
-
 .businesscard {
+  margin: auto;
+  background: white;
   padding: 2%;
 }
 
 .businesscard img {
   display: block;
-  margin: auto;
+  margin: 5% auto;
   max-width: 100%;
-  padding: 5%;
+  box-shadow: 0 12px 20px lightgrey;
 }
 
 .bio-button p {

@@ -67,6 +67,10 @@ h2 {
   color: white;
 }
 
+p {
+  font-family: "Muli", sans-serif;
+}
+
 .box {
   background-color: #f26e64;
   padding: 15px;

@@ -139,6 +139,10 @@ h2 {
   color: white;
 }
 
+p {
+  font-family: "Muli", sans-serif;
+}
+
 .textbrand {
   padding: 5%;
 }

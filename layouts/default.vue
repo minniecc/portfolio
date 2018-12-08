@@ -11,7 +11,7 @@
 </template>
 
 <style lang="scss" scoped>
-@import url("https://fonts.googleapis.com/css?family=Work+Sans");
+@import url("https://fonts.googleapis.com/css?family=Muli|Work+Sans");
 
 .everything {
   font-family: "Work Sans", sans-serif;

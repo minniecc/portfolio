@@ -144,6 +144,7 @@ h2 {
 }
 
 p {
+  font-family: "Muli", sans-serif;
   margin: 0 auto;
   padding-bottom: 5%;
 }

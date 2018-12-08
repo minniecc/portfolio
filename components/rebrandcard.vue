@@ -38,6 +38,7 @@
 }
 
 p {
+  font-family: "Muli", sans-serif;
   color: black;
   text-align: center;
 }
