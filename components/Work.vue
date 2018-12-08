@@ -1,15 +1,15 @@
 <template>
     <div class="work row _mg-at">
-        <div class="col-lg-3 col-md-6 col-sm-6 col-12 _tal-ct _dp-b">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-6 _tal-ct _dp-b">
         <nuxt-link to="/work1"><img src="~/assets/images/work-bd.png" alt=""></nuxt-link>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 col-12 _tal-ct _dp-b">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-6 _tal-ct _dp-b">
         <nuxt-link to="/work2"><img src="~/assets/images/work-ux.png" alt=""></nuxt-link>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 col-12 _tal-ct _dp-b">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-6 _tal-ct _dp-b">
         <nuxt-link to="/work3"><img src="~/assets/images/work-pg.png" alt=""></nuxt-link>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 col-12 _tal-ct _dp-b">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-6 _tal-ct _dp-b">
         <nuxt-link to="/work4"><img src="~/assets/images/work-pp.png" alt=""></nuxt-link>
         </div>
     </div>

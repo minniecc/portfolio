@@ -1,68 +1,75 @@
-const pkg = require('./package')
-const MomentLocalesPlugin = require('moment-locales-webpack-plugin')
-const PurgecssPlugin = require('purgecss-webpack-plugin')
-const glob = require('glob-all')
-const path = require('path')
+const pkg = require("./package");
+const MomentLocalesPlugin = require("moment-locales-webpack-plugin");
+const PurgecssPlugin = require("purgecss-webpack-plugin");
+const glob = require("glob-all");
+const path = require("path");
 
 module.exports = {
-  mode: 'universal',
+  mode: "universal",
 
   /*
    ** Headers of the page
    */
   head: {
     title: pkg.name,
-    meta: [{
-        charset: 'utf-8'
+    meta: [
+      {
+        charset: "utf-8"
       },
       {
-        name: 'viewport',
-        content: 'width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no'
+        name: "viewport",
+        content:
+          "width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"
       },
       {
-        hid: 'og:type',
-        property: 'og:type',
-        content: 'website'
+        hid: "og:type",
+        property: "og:type",
+        content: "website"
       },
       {
-        hid: 'description',
-        name: 'description',
+        hid: "description",
+        name: "description",
         content: pkg.description
       }
     ],
-    script: [{
-      src: '/js/offline.min.js',
-      body: true
-    }],
+    script: [
+      {
+        src: "/js/offline.min.js",
+        body: true
+      }
+    ]
   },
 
   /*
    ** Customize the progress-bar color
    */
   loading: {
-    color: '#93d6dd'
+    color: "#9bd7db"
   },
 
   /*
    ** Global CSS
    */
-  css: [{
-    src: 'assets/styles/main.scss',
-    lang: 'scss'
-  }, {
-    src: '~/static/fa/css/all.min.css'
-  }],
+  css: [
+    {
+      src: "assets/styles/main.scss",
+      lang: "scss"
+    },
+    {
+      src: "~/static/fa/css/all.min.css"
+    }
+  ],
   router: {
-    middleware: ['router']
+    middleware: ["router"]
   },
   /*
    ** Plugins to load before mounting the App
    */
   plugins: [
-    '~/plugins/ssr.js',
-    '~/plugins/axios.js',
+    "~/plugins/ssr.js",
+    "~/plugins/axios.js",
     {
-      src: '~/plugins/no-ssr.js',
+      src: "~/plugins/no-ssr.js",
       ssr: false
     }
   ],
@@ -73,9 +80,9 @@ module.exports = {
    ** Nuxt.js modules
    */
   modules: [
-    '@nuxtjs/toast',
+    "@nuxtjs/toast",
     // Doc: https://github.com/nuxt-community/axios-module#usage
-    '@nuxtjs/axios'
+    "@nuxtjs/axios"
     // ['@nuxtjs/google-analytics', {
     //   id: '',
     // autoTracking: {
@@ -85,7 +92,7 @@ module.exports = {
     // }],
   ],
   toast: {
-    position: 'top-right'
+    position: "top-right"
   },
   /*
    ** Axios module configuration
@@ -102,31 +109,31 @@ module.exports = {
   /*
    ** Build configuration
    */
-  buildDir: 'nuxt',
+  buildDir: "nuxt",
   build: {
-    publicPath: '/',
+    publicPath: "/",
     plugins: [
       new MomentLocalesPlugin({
-        localesToKeep: ['en', 'th']
+        localesToKeep: ["en", "th"]
       })
     ],
     babel: {
       presets: [
         [
-          'env',
+          "env",
           {
             targets: {
               chrome: 52,
-              browsers: ['safari 7', 'ie 11']
+              browsers: ["safari 7", "ie 11"]
             }
           }
         ],
-        'stage-0',
-        'stage-1',
-        'stage-2',
-        'stage-3'
+        "stage-0",
+        "stage-1",
+        "stage-2",
+        "stage-3"
       ],
-      plugins: ['transform-runtime']
+      plugins: ["transform-runtime"]
     },
     /*
      ** You can extend webpack config here
@@ -135,11 +142,11 @@ module.exports = {
       // Run ESLint on save
       if (ctx.isDev && ctx.client) {
         config.module.rules.push({
-          enforce: 'pre',
+          enforce: "pre",
           test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
+          loader: "eslint-loader",
           exclude: /(node_modules)/
-        })
+        });
       }
       if (!ctx.isDev) {
         // Remove unused CSS using purgecss. See https://github.com/FullHuman/purgecss
@@ -147,14 +154,14 @@ module.exports = {
         config.plugins.push(
           new PurgecssPlugin({
             paths: glob.sync([
-              path.join(__dirname, './pages/**/*.vue'),
-              path.join(__dirname, './layouts/**/*.vue'),
-              path.join(__dirname, './components/**/*.vue')
+              path.join(__dirname, "./pages/**/*.vue"),
+              path.join(__dirname, "./layouts/**/*.vue"),
+              path.join(__dirname, "./components/**/*.vue")
             ]),
-            whitelist: ['html', 'body']
+            whitelist: ["html", "body"]
           })
-        )
+        );
       }
     }
   }
-}
+};
