@@ -10,7 +10,7 @@
           <label for="ar1">
             <i class="fas fa-bars"></i>
           </label>
-          <div class="bio-accordion-content">
+          <div class="bio-accordion-content navbar">
             <div>
               <nuxt-link to="/">
                 <p>Home</p>
@@ -117,6 +117,10 @@ header {
 
 .nav :visited {
   color: #f26e64;
+}
+
+.navbar {
+  width: 50vh;
 }
 
 .logo {
