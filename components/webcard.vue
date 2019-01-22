@@ -41,7 +41,7 @@
 }
 
 .webcard p {
-  font-family: "Muli", sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: left;
 }
 </style>

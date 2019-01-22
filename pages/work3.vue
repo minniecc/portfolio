@@ -145,7 +145,7 @@ h2 {
 }
 
 p {
-  font-family: "Muli", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .digital {

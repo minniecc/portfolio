@@ -38,7 +38,7 @@
 }
 
 p {
-  font-family: "Muli", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: black;
   text-align: center;
 }

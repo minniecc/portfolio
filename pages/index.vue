@@ -65,7 +65,7 @@ h2 {
 }
 
 p {
-  font-family: "Muli", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0 auto;
   color: #f26e64;
   padding-bottom: 5%;

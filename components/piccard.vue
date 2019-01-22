@@ -19,7 +19,7 @@
   // background-image: url('{{imageUrl}}');
 
   p {
-    font-family: "Muli", sans-serif;
+    font-family: "Poppins", sans-serif;
     color: white;
     padding-top: 250px;
   }

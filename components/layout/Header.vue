@@ -50,19 +50,13 @@
         </div>
       </div>
       <!-- social -->
-      <div class="social _tal-r _fs-3-md _fs-4">
+      <div class="social _fs-3-md _fs-4">
         <a href="https://www.facebook.com/MINNIECHANTCHANOK" target="_blank">
           <i class="fab fa-facebook-square"></i>
         </a>
         <a href="http://line.me/ti/p/~minniecc" target="_blank">
           <i class="fab fa-line"></i>
         </a>
-        <!-- <a href="https://www.linkedin.com/in/minniecc/">
-			<i class="fab fa-linkedin-in"></i>
-        </a>-->
-        <!-- <a href="https://www.youtube.com/minniechantchanok/">
-			<i class="fab fa-youtube"></i>
-        </a>-->
         <a href="mailto:chantchanokch@gmail.com?Subject=" target="_top">
           <i class="far fa-envelope"></i>
         </a>
@@ -129,7 +123,10 @@ header {
 
 .social {
   padding: 15px 15px 0 0;
-  word-spacing: 0.5em;
+}
+
+.social i {
+  margin: 0 0 0 15px;
 }
 
 .social a {

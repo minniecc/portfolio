@@ -11,10 +11,10 @@
 </template>
 
 <style lang="scss" scoped>
-@import url("https://fonts.googleapis.com/css?family=Muli|Work+Sans");
+@import url("https://fonts.googleapis.com/css?family=Poppins|Work+Sans");
 
 .everything {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 </style>
 
