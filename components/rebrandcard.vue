@@ -1,7 +1,7 @@
 <template>
   <div class="row col-lg-6 col-md-12 col-sm-12 col-12 _mg-at rebrand">
     <div
-      class="rebrandpic old ol-lg-5 col-md-5 col-sm-5 col-5 _tal-ct _dp-b _bgs-ct _bgrp-nrp _bgpst-ct"
+      class="rebrandpic old col-lg-5 col-md-5 col-sm-5 col-5 _tal-ct _dp-b _bgs-ct _bgrp-nrp _bgpst-ct"
       :style="`background-image: url(${oldpic})`"
     ></div>
 
@@ -15,6 +15,12 @@
       class="rebrandpic col-lg-5 col-md-5 col-sm-5 col-5 _tal-ct _dp-b _bgs-ct _bgrp-nrp _bgpst-ct"
       :style="`background-image: url(${newpic})`"
     ></div>
+
+    <div class="brand _mg-at">
+      <h2 class="_fs-4-md _fs-5">{{ brand }}</h2>
+      <hr>
+      <p class="_fs-5-md _fs-6-sm _fs-7">{{ sub }}</p>
+    </div>
   </div>
 </template>
 
@@ -30,22 +36,43 @@
   // background: #ffcd00;
   margin: auto;
   // box-shadow: 0 12px 20px lightgrey;
-  border: 2px dotted black;
+  border: 2px dotted grey;
 }
 
 .old {
   filter: saturate(20%);
 }
 
+.brand {
+  height: 200px;
+}
+h2 {
+  padding-top: 10px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-weight: 300;
+  color: black;
+}
+
 p {
   font-family: "Poppins", sans-serif;
-  color: black;
-  text-align: center;
+  color: grey;
+  text-align: left;
+}
+
+hr {
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 3px;
+  border-style: none;
+  background-color: #ffcd00;
+  opacity: 0.5;
 }
 </style>
 
 <script>
 export default {
-  props: ["oldpic", "newpic"]
+  props: ["oldpic", "newpic", "brand", "sub"]
 };
 </script>

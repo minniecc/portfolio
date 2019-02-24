@@ -1,5 +1,5 @@
 <template>
-  <div class="work3 col-lg-8 col-md-8 col-sm-10 col-10 _mg-at">
+  <div class="minniec-photo col-lg-8 col-md-8 col-sm-10 col-10 _mg-at">
     <h1 class="_fs-3-md _fs-4">PHOTOGRAPHY</h1>
     <!-- digital -->
     <div class="col-10 _alit-ct _mg-at">
@@ -123,7 +123,7 @@ export default {
 
 
 <style lang="scss" scoped>
-.work3 {
+.minniec-photo {
   background-color: #ffa69e;
 }
 

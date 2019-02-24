@@ -1,12 +1,13 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-const _46d2e6e0 = () => import('../pages/work4.vue' /* webpackChunkName: "pages/work4" */).then(m => m.default || m)
-const _470b44e4 = () => import('../pages/work2.vue' /* webpackChunkName: "pages/work2" */).then(m => m.default || m)
-const _4e295fda = () => import('../pages/about.vue' /* webpackChunkName: "pages/about" */).then(m => m.default || m)
+const _7689b144 = () => import('../pages/minniec-project.vue' /* webpackChunkName: "pages/minniec-project" */).then(m => m.default || m)
+const _9b66bb40 = () => import('../pages/minniec-branding.vue' /* webpackChunkName: "pages/minniec-branding" */).then(m => m.default || m)
 const _6bcda5ad = () => import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */).then(m => m.default || m)
-const _472773e6 = () => import('../pages/work1.vue' /* webpackChunkName: "pages/work1" */).then(m => m.default || m)
-const _46ef15e2 = () => import('../pages/work3.vue' /* webpackChunkName: "pages/work3" */).then(m => m.default || m)
+const _4e295fda = () => import('../pages/about.vue' /* webpackChunkName: "pages/about" */).then(m => m.default || m)
+const _1cf4589d = () => import('../pages/minniec-photo.vue' /* webpackChunkName: "pages/minniec-photo" */).then(m => m.default || m)
+const _3048b5c6 = () => import('../pages/minniec-website.vue' /* webpackChunkName: "pages/minniec-website" */).then(m => m.default || m)
+const _3ff78efa = () => import('../pages/projects/project1.vue' /* webpackChunkName: "pages/projects/project1" */).then(m => m.default || m)
 const _6de13a9f = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
 
 Vue.use(Router)
@@ -69,19 +70,14 @@ export function createRouter () {
     scrollBehavior,
     routes: [
 		{
-			path: "/work4",
-			component: _46d2e6e0,
-			name: "work4"
+			path: "/minniec-project",
+			component: _7689b144,
+			name: "minniec-project"
 		},
 		{
-			path: "/work2",
-			component: _470b44e4,
-			name: "work2"
-		},
-		{
-			path: "/about",
-			component: _4e295fda,
-			name: "about"
+			path: "/minniec-branding",
+			component: _9b66bb40,
+			name: "minniec-branding"
 		},
 		{
 			path: "/contact",
@@ -89,14 +85,24 @@ export function createRouter () {
 			name: "contact"
 		},
 		{
-			path: "/work1",
-			component: _472773e6,
-			name: "work1"
+			path: "/about",
+			component: _4e295fda,
+			name: "about"
 		},
 		{
-			path: "/work3",
-			component: _46ef15e2,
-			name: "work3"
+			path: "/minniec-photo",
+			component: _1cf4589d,
+			name: "minniec-photo"
+		},
+		{
+			path: "/minniec-website",
+			component: _3048b5c6,
+			name: "minniec-website"
+		},
+		{
+			path: "/projects/project1",
+			component: _3ff78efa,
+			name: "projects-project1"
 		},
 		{
 			path: "/",

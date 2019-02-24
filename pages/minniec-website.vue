@@ -1,5 +1,5 @@
 <template>
-  <div class="work4 col-lg-8 col-md-8 col-sm-10 col-10 _mg-at">
+  <div class="minniec-project col-lg-8 col-md-8 col-sm-10 col-10 _mg-at">
     <h1 class="_fs-3-md _fs-4">UX&UI DESIGN</h1>
     <div class="icon row col-8 _jtfct-spbtw _tal-ct _mgh-at _mgbt-24px _fs-2-md _fs-3-sm _fs-4">
       <i class="fas fa-code"></i>
@@ -35,7 +35,7 @@
             heading="InvoDesign"
             pic="/images/web/invo.png"
             web="https://www.invodesign.com.au/"
-            des="Architecture firm based in Melbourne, Australia"
+            des="Architecture firm based in Melbourne, Australia."
           />
         </div>
       </div>
@@ -49,7 +49,7 @@
             heading="KFC GAME"
             pic="/images/web/kfc.png"
             web="https://bouncing-ball-8ef95.firebaseapp.com/week7game/"
-            des="Move your curser to navigate the bucket and try to catch all the chickens"
+            des="Move your curser to navigate the bucket and try to catch all the chickens."
           />
           <webcard
             heading="Drop a ball"
@@ -63,7 +63,7 @@
             heading="My Valentines"
             pic="/images/web/valentines.png"
             web="https://bouncing-ball-8ef95.firebaseapp.com/week5/valentines/"
-            des="Record your feeling and let your love hear it while drawing on screen"
+            des="Record your feeling and let your love hear it while drawing on screen."
           />
           <webcard
             heading="Design your own funeral"
@@ -122,7 +122,7 @@ export default {
 
 
 <style lang="scss" scoped>
-.work4 {
+.minniec-project {
   background-color: #9bd7db;
 }
 

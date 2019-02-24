@@ -22,22 +22,22 @@
               </nuxt-link>
             </div>
             <div>
-              <nuxt-link to="/work1">
+              <nuxt-link to="/minniec-branding">
                 <p>Branding</p>
               </nuxt-link>
             </div>
             <div>
-              <nuxt-link to="/work2">
+              <nuxt-link to="/minniec-website">
                 <p>UX&UI</p>
               </nuxt-link>
             </div>
             <div>
-              <nuxt-link to="/work3">
+              <nuxt-link to="/minniec-photo">
                 <p>Photography</p>
               </nuxt-link>
             </div>
             <div>
-              <nuxt-link to="/work4">
+              <nuxt-link to="/minniec-project">
                 <p>Personal Project</p>
               </nuxt-link>
             </div>

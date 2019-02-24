@@ -1,6 +1,6 @@
 <template>
-  <div class="aboutpage col-lg-8 col-md-8 col-sm-10 col-10 _mg-at">
-    <h1 class="_fs-3-md _fs-4">ABOUT</h1>
+  <div class="aboutpage col-lg-8 col-md-8 col-sm-10 col-10 _mg-at">WORK IN PROCESS!
+    <h1 class="_fs-3-md _fs-4">PROJECT1</h1>
     <!-- about 1 -->
     <div class="row">
       <div class="aboutpic _mg-at col-lg-4 col-md-5 col-sm-6 col-10">
@@ -130,3 +130,4 @@ p {
   }
 }
 </style>
+

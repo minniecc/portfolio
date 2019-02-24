@@ -1,6 +1,6 @@
 <template>
-  <div class="work4 col-lg-8 col-md-8 col-sm-10 col-10 _mg-at">
-    <h1 class="_fs-3-md _fs-4">PERSONAL PROJECT</h1>
+  <div class="minniec-branding col-lg-8 col-md-8 col-sm-10 col-10 _mg-at">
+    <h1 class="_fs-3-md _fs-4">BRANDING</h1>
     <!-- about 1 -->
     <div class="row">
       <div class="col-11 _alit-ct _mg-at _h-512px-lg _h-512px-md _h-512px-sm _h-256px _bgcl-white">
@@ -9,7 +9,7 @@
 
       <!-- logo -->
       <div class="textbrand col-12 _tal-ct _mg-at _alit-ct">
-        <h2 class="_fs-4-md _fs-5">Illustration</h2>
+        <h2 class="_fs-4-md _fs-5">LOGO</h2>
       </div>
 
       <brandcard
@@ -33,9 +33,57 @@
         logo4="/images/lg/logo19.png"
       />
 
+      <brandcard
+        logo1="/images/lg/logo9.png"
+        logo2="/images/lg/logo3.png"
+        logo3="/images/lg/logo4.png"
+        logo4="/images/lg/logo1.png"
+      />
+
+      <brandcard
+        logo1="/images/lg/logo6.png"
+        logo2="/images/lg/logo21.png"
+        logo3="/images/lg/logo5.png"
+        logo4="/images/lg/logo20.png"
+      />
+
       <!-- Re-branding -->
       <div class="textbrand col-11 _tal-ct _mg-at _dp-b _alit-ct _jtfit-ct">
-        <h2 class="_fs-4-md _fs-5">Card design</h2>
+        <h2 class="_fs-4-md _fs-5">Re-branding</h2>
+      </div>
+
+      <div class="row col-11 _mg-at _pd-0px">
+        <rebrandcard
+          oldpic="/images/rb/oldinvo.jpg"
+          newpic="/images/rb/newinvo.png"
+          brand="InvoDesign"
+          sub="A boutique full-service architecture firm in Melbourne that delivers value and results to our clients across Victoria and Interstate"
+        />
+        <rebrandcard
+          oldpic="/images/rb/ginginold.jpg"
+          newpic="/images/lg/logo13.png"
+          brand="Gingin Grass Fed"
+          sub="Gingin Grass Fed Beef's mission is to supply Western Australia's best tasting free range, hormone and chemical free Beef."
+        />
+      </div>
+      <div class="row col-11 _mg-at _pd-0px">
+        <rebrandcard
+          oldpic="/images/rb/paypointold.png"
+          newpic="/images/lg/logo22.png"
+          brand="Pay Point"
+          sub="An established mobile phone shop in Bangkok, providing customers with endless choices of smartphone & watches"
+        />
+        <rebrandcard
+          oldpic="/images/rb/saladold.png"
+          newpic="/images/lg/logo2.png"
+          brand="Salala"
+          sub="The best vegetarian restaurant in Edinburgh, Salala, offers up mouth-watering vegan and vegetarian breakfasts, lunches and dinners in the capital."
+        />
+      </div>
+
+      <!-- business card -->
+      <div class="textbrand col-10 _tal-ct _mg-at _dp-b _alit-ct _jtfit-ct">
+        <h2 class="_fs-4-md _fs-5">Business Card</h2>
       </div>
 
       <div class="row col-11 _mg-at businesscard">
@@ -58,25 +106,12 @@
           <img src="/images/bc/paypoint-02.png" alt>
         </div>
       </div>
-
-      <!-- business card -->
-      <div class="textbrand col-10 _tal-ct _mg-at _dp-b _alit-ct _jtfit-ct">
-        <h2 class="_fs-4-md _fs-5">Character design</h2>
-      </div>
-
-      <div class="col-11 _alit-ct _mg-at _h-512px-lg _h-512px-md _h-512px-sm _h-256px _bgcl-white">
-        <div class="character1"></div>
-      </div>
-
-      <div class="col-11 _alit-ct _mg-at _h-512px-lg _h-512px-md _h-512px-sm _h-256px _bgcl-white">
-        <div class="character2"></div>
-      </div>
     </div>
 
     <div class="row _pd-64px">
       <div class="bio-button -dark _mg-at">
         <nuxt-link to="/contact">
-          <p>GET IN TOUCH</p>
+          <p>WANT YOUR OWN BRAND?</p>
         </nuxt-link>
       </div>
     </div>
@@ -87,23 +122,24 @@
   </div>
 </template>
 
-
 <script>
 import Work from "~/components/Work";
 import Brandcard from "~/components/brandcard";
+import Rebrandcard from "~/components/rebrandcard";
 export default {
-  components: { Work, Brandcard },
+  components: { Work, Brandcard, Rebrandcard },
   head() {
     return {
-      title: "Minnie's Personal Projects"
+      title: "Minnie C's Branding"
     };
   }
 };
 </script>
 
+
 <style lang="scss" scoped>
-.work4 {
-  background-color: #f26e64;
+.minniec-branding {
+  background-color: #ffcd00;
 }
 
 h1 {
@@ -140,27 +176,16 @@ p {
   height: 100%;
 }
 
-.character1 {
-  margin: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-image: url(/images/pp/stickerline-01.png);
-  height: 100%;
-}
-
-.character2 {
-  margin: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-image: url(/images/pp/stickerline-02.png);
-  height: 100%;
-}
-
 .rebrand {
   padding: 2%;
 }
+
+// .rebrand img{
+//     display: block;
+//     margin: auto;
+//     max-width: 100%;
+//     padding: 5%;
+// }
 
 .businesscard {
   margin: auto;
@@ -178,7 +203,7 @@ p {
 .bio-button p {
   color: white;
   &:hover {
-    color: #f26e64;
+    color: #ffcd00;
   }
 }
 </style>

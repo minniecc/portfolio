@@ -6,16 +6,18 @@
       >Hello & Welcome to my website! I am a graphic and industrial designer. I help my clients build better businesses by creating joyful digital ideas, products and experiences that connect the hearts of brands to the hearts of their consumers.</p>
     </div>
 
-    <!-- put something here -->
-    <div class="hero col-10 _mg-at">
+    <div class="hero row col-10 _mg-at">
       <div class="row col-10 _mg-at">
         <div
           class="col-lg-12 col-sm-12 col-12 _dp-b indexpic _h-512px-lg _h-512px-md _h-512px-sm _h-256px"
         ></div>
       </div>
-      <div class="row _pd-32px">
-        <div class="bio-button -dark _mg-at">
+      <div class="row col-lg-8 col-md-10 col-sm-12 col-12 _mg-at _pd-32px">
+        <div class="bio-button -dark mgbutt">
           <nuxt-link class="indexbutt" to="/about">MORE ABOUT MINNIE?</nuxt-link>
+        </div>
+        <div class="bio-button -dark mgbutt">
+          <a class="indexbutt" href="/pdf/minniecv.pdf" download>DOWNLOAD MY CV</a>
         </div>
       </div>
     </div>
@@ -74,6 +76,10 @@ p {
 .hero {
   background: linear-gradient(-45deg, #f26e64, #ffa69e, #9bd7db);
   margin: auto;
+}
+
+.mgbutt {
+  margin: 16px auto auto auto;
 }
 
 .indexpic {
