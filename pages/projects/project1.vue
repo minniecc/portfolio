@@ -1,52 +1,34 @@
 <template>
-  <div class="aboutpage col-lg-8 col-md-8 col-sm-10 col-10 _mg-at">WORK IN PROCESS!
-    <h1 class="_fs-3-md _fs-4">PROJECT1</h1>
-    <!-- about 1 -->
-    <div class="row">
-      <div class="aboutpic _mg-at col-lg-4 col-md-5 col-sm-6 col-10">
-        <img src="~assets/images/minnie.jpg" alt>
+  <div class="project col-lg-8 col-md-8 col-sm-10 col-10 _mg-at">
+    <h1 class="_fs-3-md _fs-4">project template</h1>
+
+    <!-- hero pic -->
+    <div class="col-11 _alit-ct _mg-at _h-512px-lg _h-512px-md _h-512px-sm _h-256px _bgcl-white">
+      <div class="projecthero"></div>
+    </div>
+
+    <!-- des -->
+    <div class="row text col-11 _tal-ct _alit-ct">
+      <p
+        class="_fs-5-md _fs-6-sm _fs-7"
+      >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex corporis deleniti ipsa pariatur repellendus ea autem recusandae nostrum itaque maxime, reprehenderit assumenda quos eos ratione voluptas atque. Eum, nisi! Cumque?</p>
+    </div>
+
+    <!-- more pics -->
+    <div class="workpic row col-11 _mg-at">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-12 _tal-ct _dp-b _mg-at">
+        <img src="~assets/images/branding-web.png" alt>
       </div>
-      <div class="abouttext col-lg-8 _dp-b _alit-ct _jtfit-ct">
-        <h2 class="_fs-4-md _fs-5">NAME</h2>
-        <p
-          class="_fs-5-md _fs-6-sm _fs-7"
-        >My given name is Chantchanok Chantpakpimon. Chantchanok or ฉันท์ชนก means to be appreciated by those around me. It is actually a combination of the first word of my family name "Chant" and the ending part of my mom's name which is "chanok" from Ratchanok. You can also call me Minnie.</p>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-12 _tal-ct _dp-b _mg-at">
+        <img src="~/assets/images/work-ux.png" alt>
       </div>
     </div>
-    <!-- about 2 -->
-    <div class="row">
-      <div class="aboutpic _mg-at col-lg-4 col-md-5 col-sm-6 col-10">
-        <img src="~assets/images/bio.jpg" alt>
+    <div class="workpic row col-11 _mg-at">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-12 _tal-ct _dp-b _mg-at">
+        <img src="~assets/images/branding-web.png" alt>
       </div>
-      <div class="abouttext col-lg-8 _dp-b _alit-ct _jtfit-ct">
-        <h2 class="_fs-4-md _fs-5">BIO</h2>
-        <p
-          class="_fs-5-md _fs-6-sm _fs-7"
-        >I design feeling and experiences through different kinds of medium. I am a self-taught front-end devoloper. I cook, bake and sing as my getaway time. I enjoy going to the gym and eating healthy but I also love going to a good buffet and boba tea is life. I have been to 16 countries and counting. I have mastered the "24 game". I'm looking for a decent competitor so please let me know if you're interested.</p>
-      </div>
-    </div>
-    <!-- about 3 -->
-    <div class="row">
-      <div class="aboutpic _mg-at col-lg-4 col-md-5 col-sm-6 col-10">
-        <img src="~assets/images/bg.jpg" alt>
-      </div>
-      <div class="abouttext col-lg-8 _dp-b _alit-ct _jtfit-ct">
-        <h2 class="_fs-4-md _fs-5">BACKGROUND</h2>
-        <p
-          class="_fs-5-md _fs-6-sm _fs-7"
-        >I was born and raised in Bangkok, Thailand. During my years growing up I had opportunities to live in Connecticut, Taiwan, Toronto and Melbourne. Always feel free to ask me about this in person. At university, I studied industrial design which is not designing factories! I have a sister, a brother and a dog but I'm the biggest one so yeah I was the PROJECT!</p>
-      </div>
-    </div>
-    <!-- about 4 -->
-    <div class="row">
-      <div class="aboutpic _mg-at col-lg-4 col-md-5 col-sm-6 col-10">
-        <img src="~assets/images/work.jpg" alt>
-      </div>
-      <div class="abouttext col-lg-8 _dp-b _alit-ct _jtfit-ct">
-        <h2 class="_fs-4-md _fs-5">ROLES</h2>
-        <p
-          class="_fs-5-md _fs-6-sm _fs-7"
-        >I am finishing my degree at Chulalongkorn university, working on my technology based senior project. I also work as a freelancer. I create brands for companies and graphic designs such as product label, business card, presentation document and etc. I also tutor my brother math.</p>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-12 _tal-ct _dp-b _mg-at">
+        <img src="~/assets/images/work-ux.png" alt>
       </div>
     </div>
 
@@ -78,7 +60,7 @@ export default {
 
 
 <style lang="scss" scoped>
-.aboutpage {
+.project {
   background-color: #9bd7db;
 }
 
@@ -104,19 +86,28 @@ p {
   font-family: "Poppins", sans-serif;
 }
 
-.abouttext {
-  padding: 5% 5% 5% 2%;
+.text {
+  margin-bottom: 50px;
 }
 
-.aboutpic {
+.projecthero {
   margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(~assets/images/branding-web.png);
+  height: 100%;
 }
 
-.aboutpic img {
-  display: block;
-  margin: auto;
-  max-width: 80%;
-  border: 5px solid white;
+.workpic {
+  background-color: white;
+  padding: 2%;
+}
+
+.workpic img {
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .mgbutt {

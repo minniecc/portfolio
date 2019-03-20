@@ -4,7 +4,7 @@
     <!-- about 1 -->
     <div class="row">
       <div class="aboutpic _mg-at col-lg-4 col-md-5 col-sm-6 col-10">
-        <img src="~assets/images/minnie.jpg" alt>
+        <img src="~/assets/images/minnie.jpg" alt>
       </div>
       <div class="abouttext col-lg-8 _dp-b _alit-ct _jtfit-ct">
         <h2 class="_fs-4-md _fs-5">NAME</h2>
@@ -16,7 +16,7 @@
     <!-- about 2 -->
     <div class="row">
       <div class="aboutpic _mg-at col-lg-4 col-md-5 col-sm-6 col-10">
-        <img src="~assets/images/bio.jpg" alt>
+        <img src="~/assets/images/bio.jpg" alt>
       </div>
       <div class="abouttext col-lg-8 _dp-b _alit-ct _jtfit-ct">
         <h2 class="_fs-4-md _fs-5">BIO</h2>
@@ -28,7 +28,7 @@
     <!-- about 3 -->
     <div class="row">
       <div class="aboutpic _mg-at col-lg-4 col-md-5 col-sm-6 col-10">
-        <img src="~assets/images/bg.jpg" alt>
+        <img src="~/assets/images/bg.jpg" alt>
       </div>
       <div class="abouttext col-lg-8 _dp-b _alit-ct _jtfit-ct">
         <h2 class="_fs-4-md _fs-5">BACKGROUND</h2>
@@ -40,7 +40,7 @@
     <!-- about 4 -->
     <div class="row">
       <div class="aboutpic _mg-at col-lg-4 col-md-5 col-sm-6 col-10">
-        <img src="~assets/images/work.jpg" alt>
+        <img src="~/assets/images/work.jpg" alt>
       </div>
       <div class="abouttext col-lg-8 _dp-b _alit-ct _jtfit-ct">
         <h2 class="_fs-4-md _fs-5">ROLES</h2>

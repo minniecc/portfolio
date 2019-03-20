@@ -12,32 +12,34 @@
     <!-- UNI -->
     <div class="text col-12 _tal-ct _mg-at _alit-ct _pd-24px">
       <h2 class="_fs-4-md _fs-5">School Projects</h2>
-      <p class="_fs-5-md _fs-6-sm _fs-7">I love interactive media. I code games with python too!</p>
+      <p
+        class="_fs-5-md _fs-6-sm _fs-7"
+      >My projects during my study at Industrail Design, Chulalongkorn University. Both individual and group projects.</p>
     </div>
 
     <div class="row col-11 _mg-at _pd-0px">
       <projectcard
-        project="KFC GAME"
-        pic="/images/web/kfc.png"
-        page="project1"
-        des="Move your curser to navigate the bucket and try to catch all the chickens."
+        project="GETBRIC"
+        pic="/images/pp/getbric-hero.png"
+        page="getbric"
+        des="A boardgame that you can build, play and challenge your creativity."
       />
       <projectcard
-        project="KFC GAME"
-        pic="/images/web/kfc.png"
-        page="project1"
-        des="Move your curser to navigate the bucket and try to catch all the chickens."
+        project="SUM-ONE"
+        pic="/images/pp/sumone.png"
+        page="sum-one"
+        des="Wearable object designed for K-POP fans to help them with their concert projects"
       />
       <projectcard
-        project="KFC GAME"
-        pic="/images/web/kfc.png"
-        page="project1"
-        des="Move your curser to navigate the bucket and try to catch all the chickens."
+        project="Salala"
+        pic="/images/pp/salala.png"
+        page="salala"
+        des="Product, Packaging and Food truck design for a healthy food company, Salala"
       />
       <projectcard
-        project="KFC GAME"
-        pic="/images/web/kfc.png"
-        page="project1"
+        project="Adidas: Exp Design"
+        pic="/images/pp/adi1.png"
+        page="adidas"
         des="Move your curser to navigate the bucket and try to catch all the chickens."
       />
       <projectcard
@@ -57,28 +59,55 @@
     <!-- Illustration -->
     <div class="text col-12 _tal-ct _mg-at _alit-ct _pd-24px">
       <h2 class="_fs-4-md _fs-5">Illustration</h2>
-      <p class="_fs-5-md _fs-6-sm _fs-7">I love interactive media. I code games with python too!</p>
+      <p class="_fs-5-md _fs-6-sm _fs-7">Adobe illustrator, Adobe InDesign and Procreate</p>
     </div>
 
     <div class="row col-11 _mg-at _pd-0px">
       <projectcard
-        project="KFC GAME"
-        pic="/images/web/kfc.png"
-        page="project1"
+        project="Lettering"
+        pic="/images/lettering/1.jpg"
+        page="lettering"
         des="Move your curser to navigate the bucket and try to catch all the chickens."
       />
       <projectcard
-        project="KFC GAME"
-        pic="/images/web/kfc.png"
-        page="project1"
-        des="Move your curser to navigate the bucket and try to catch all the chickens."
+        project="Wedding Invitation"
+        pic="/images/pp/weddingkrupaninvite-01.png"
+        page="PMwedding"
+        des="A wedding invitation card design for my beloved vocal teacher."
       />
       <projectcard
-        project="KFC GAME"
-        pic="/images/web/kfc.png"
-        page="project1"
-        des="Move your curser to navigate the bucket and try to catch all the chickens."
+        project="Kraivith: Line Sticker"
+        pic="/images/pp/stickerline-04.png"
+        page="line-ben"
+        des="Character design for Line sticker sold on LINE Creators Market"
       />
+      <projectcard
+        project="MOM: Line Sticker"
+        pic="/images/pp/stickerline-03.png"
+        page="line-mom"
+        des="Character design for Line sticker sold on LINE Creators Market"
+      />
+      <projectcard
+        project="Chant"
+        pic="/images/pp/chant-05.png"
+        page="chant"
+        des="Patterns inspired by Thai dessert: Ruam Mitr, Bua Roy, Lod Chong and Sakoo"
+      />
+      <projectcard
+        project="Penguin"
+        pic="/images/pp/penguin1-01.png"
+        page="penguin"
+        des="Shower curtain, one of the fastest ways to spruce up your bathroom"
+      />
+    </div>
+
+    <!-- Jewellery -->
+    <div class="text col-12 _tal-ct _mg-at _alit-ct _pd-24px">
+      <h2 class="_fs-4-md _fs-5">Jewellery</h2>
+      <p class="_fs-5-md _fs-6-sm _fs-7">I love interactive media. I code games with python too!</p>
+    </div>
+
+    <div class="row col-11 _mg-at _pd-0px">
       <projectcard
         project="KFC GAME"
         pic="/images/web/kfc.png"

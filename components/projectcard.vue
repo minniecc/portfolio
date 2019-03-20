@@ -25,7 +25,7 @@
 
 .projectcard:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 29px lightgrey;
+  box-shadow: 0 12px 29px white;
 }
 
 .projectcardpic {
