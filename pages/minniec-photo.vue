@@ -1,9 +1,23 @@
 <template>
   <div class="minniec-photo col-lg-8 col-md-8 col-sm-10 col-10 _mg-at">
-    <h1 class="_fs-3-md _fs-4">PHOTOGRAPHY</h1>
+    <!-- Logo Row -->
+    <div class="row">
+      <div class="col-12">
+        <!-- logo -->
+        <div class="_mgt-128px _alit-ct _tal-ct _h-256px-lg _h-256px-md _h-256px-sm _h-128px">
+          <nuxt-link to="/">
+            <img class="_dp-b _mg-at _h-70pct" src="~/assets/images/logomn.png" alt>
+            change to logo with graphic
+          </nuxt-link>
+        </div>
+      </div>
+    </div>
+
+    <!-- <h1 class="_fs-3-md _fs-4">PHOTOGRAPHY</h1> -->
     <!-- digital -->
     <div class="col-10 _alit-ct _mg-at">
       <h2 class="_fs-4-md _fs-5">DIGITAL</h2>
+      <hr class="line col-1">
       <p class="_fs-5-md _fs-6-sm _fs-7 _mg-at _tal-ct">Canon D70</p>
     </div>
     <!-- using template for card -->
@@ -34,6 +48,7 @@
     <!-- film -->
     <div class="col-10 _alit-ct _mg-at">
       <h2 class="_fs-4-md _fs-5">film</h2>
+      <hr class="line col-1">
       <p class="_fs-5-md _fs-6-sm _fs-7 _mg-at _tal-ct">Canon EOS 500n // Disposable Camera</p>
     </div>
 
@@ -132,7 +147,6 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   font-weight: 600;
-  padding: 10% 0 5% 0;
   color: white;
 }
 
@@ -170,7 +184,13 @@ p {
   padding: 5%;
 }
 
+.bio-button {
+  border: none;
+  border-radius: 50px;
+}
+
 .bio-button p {
+  padding: 0 15px;
   color: white;
   &:hover {
     color: #ffa69e;
@@ -183,6 +203,11 @@ p {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(~assets/images/minnielogo.png);
+  background-image: url(~assets/images/logomn.png);
+}
+
+.line {
+  box-sizing: border-box;
+  border: 1.5px solid white;
 }
 </style>

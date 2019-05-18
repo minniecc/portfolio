@@ -1,6 +1,19 @@
 <template>
   <div class="minniec-project col-lg-8 col-md-8 col-sm-10 col-10 _mg-at">
-    <h1 class="_fs-3-md _fs-4">UX&UI DESIGN</h1>
+    <!-- Logo Row -->
+    <div class="row">
+      <div class="col-12">
+        <!-- logo -->
+        <div class="_mgt-128px _alit-ct _tal-ct _h-256px-lg _h-256px-md _h-256px-sm _h-128px">
+          <nuxt-link to="/">
+            <img class="_dp-b _mg-at _h-70pct" src="~/assets/images/logomn.png" alt>
+            change to logo with graphic
+          </nuxt-link>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="_fs-3-md _fs-4">INTERACTION WEBSITE DESIGN</h1>
     <div class="icon row col-8 _jtfct-spbtw _tal-ct _mgh-at _mgbt-24px _fs-2-md _fs-3-sm _fs-4">
       <i class="fas fa-code"></i>
       <i class="fab fa-html5"></i>
@@ -21,6 +34,7 @@
       <!-- landing page -->
       <div class="text col-11 _tal-ct _mg-at _alit-ct">
         <h2 class="_fs-4-md _fs-5">Landing page</h2>
+        <hr class="line col-1">
         <p
           class="_fs-5-md _fs-6-sm _fs-7"
         >The beauty of landing pages is that they can take pressure off the main site and be used for multiple campaigns without confusing your core messages.</p>
@@ -43,6 +57,7 @@
       <!-- Games -->
       <div class="text col-11 _tal-ct _mg-at _alit-ct">
         <h2 class="_fs-4-md _fs-5">Games</h2>
+        <hr class="line col-1">
         <p class="_fs-5-md _fs-6-sm _fs-7">I love interactive media. I code games with python too!</p>
         <div class="row">
           <webcard
@@ -77,6 +92,7 @@
       <!-- app -->
       <div class="text col-11 _tal-ct _mg-at _alit-ct">
         <h2 class="_fs-4-md _fs-5">Application Design</h2>
+        <hr class="line col-1">
         <p class="_fs-5-md _fs-6-sm _fs-7">Wireframe, Testing, Interface</p>
         <div class="row">
           <webcard
@@ -97,7 +113,9 @@
 
     <div class="row _pd-64px">
       <div class="bio-button -dark _mg-at">
-        <nuxt-link class="webbutt" to="/contact">WANT ME TO DESIGN A WEBSITE?</nuxt-link>
+        <nuxt-link class to="/contact">
+          <p>WANT ME TO DESIGN A WEBSITE?</p>
+        </nuxt-link>
       </div>
     </div>
 
@@ -131,7 +149,7 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   font-weight: 600;
-  padding: 10% 0 5% 0;
+  padding-bottom: 3%;
   color: white;
 }
 
@@ -173,6 +191,7 @@ p {
 .logo {
   padding: 2%;
 }
+
 .logo img {
   display: block;
   margin: auto;
@@ -208,10 +227,21 @@ p {
   padding: 5%;
 }
 
-.webbutt {
+.bio-button {
+  border: none;
+  border-radius: 50px;
+}
+
+.bio-button p {
+  padding: 0 15px;
   color: white;
   &:hover {
     color: #9bd7db;
   }
+}
+
+.line {
+  box-sizing: border-box;
+  border: 1.5px solid white;
 }
 </style>

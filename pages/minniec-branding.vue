@@ -1,6 +1,20 @@
 <template>
   <div class="minniec-branding col-lg-8 col-md-8 col-sm-10 col-10 _mg-at">
-    <h1 class="_fs-3-md _fs-4">BRANDING</h1>
+    <!-- Logo Row -->
+    <div class="row">
+      <div class="col-12">
+        <!-- logo -->
+        <div class="_mgt-128px _alit-ct _tal-ct _h-256px-lg _h-256px-md _h-256px-sm _h-128px">
+          <nuxt-link to="/">
+            <img class="_dp-b _mg-at _h-70pct" src="~/assets/images/logomn.png" alt>
+            change to BRANDING with graphic
+          </nuxt-link>
+        </div>
+      </div>
+    </div>
+
+    <!-- <h1 class="_fs-3-md _fs-4">BRANDING</h1>
+    <hr>-->
     <!-- about 1 -->
     <div class="row">
       <div class="col-11 _alit-ct _mg-at _h-512px-lg _h-512px-md _h-512px-sm _h-256px _bgcl-white">
@@ -10,6 +24,7 @@
       <!-- logo -->
       <div class="textbrand col-12 _tal-ct _mg-at _alit-ct">
         <h2 class="_fs-4-md _fs-5">LOGO</h2>
+        <hr class="line col-1">
       </div>
 
       <brandcard
@@ -50,6 +65,7 @@
       <!-- Re-branding -->
       <div class="textbrand col-11 _tal-ct _mg-at _dp-b _alit-ct _jtfit-ct">
         <h2 class="_fs-4-md _fs-5">Re-branding</h2>
+        <hr class="line col-1">
       </div>
 
       <div class="row col-11 _mg-at _pd-0px">
@@ -84,6 +100,7 @@
       <!-- business card -->
       <div class="textbrand col-10 _tal-ct _mg-at _dp-b _alit-ct _jtfit-ct">
         <h2 class="_fs-4-md _fs-5">Business Card</h2>
+        <hr class="line col-1">
       </div>
 
       <div class="row col-11 _mg-at businesscard">
@@ -147,14 +164,13 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   font-weight: 600;
-  padding: 10% 0 5% 0;
   color: white;
 }
 
 h2 {
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
   font-weight: 600;
   color: white;
 }
@@ -190,6 +206,7 @@ p {
 .businesscard {
   margin: auto;
   background: white;
+  border: 5px solid #ffcd00;
   padding: 2%;
 }
 
@@ -200,10 +217,21 @@ p {
   box-shadow: 0 12px 20px lightgrey;
 }
 
+.bio-button {
+  border: none;
+  border-radius: 50px;
+}
+
 .bio-button p {
+  padding: 0 15px;
   color: white;
   &:hover {
     color: #ffcd00;
   }
+}
+
+.line {
+  box-sizing: border-box;
+  border: 1.5px solid white;
 }
 </style>

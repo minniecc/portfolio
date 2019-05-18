@@ -1,12 +1,28 @@
 <template>
   <div>
     <div class="col-lg-4 col-md-6 col-10 _dp-b _tal-ct _mg-at">
+      <!-- Logo Row -->
+      <div class="row">
+        <div class="col-12">
+          <!-- logo -->
+          <div
+            class="logo _mgt-128px _alit-ct _tal-ct _h-256px-lg _h-256px-md _h-256px-sm _h-128px"
+          >
+            <nuxt-link to="/">
+              <img class="_dp-b _mg-at _h-70pct" src="~/assets/images/logomn.png" alt>
+              change to logo with graphic
+            </nuxt-link>
+          </div>
+        </div>
+      </div>
+
+      <h1 class="_fs-4-md _fs-5">Hey, it's MINNIECC!</h1>
       <p
-        class="_fs-5-md _fs-6-sm _fs-7"
-      >Hello & Welcome to my website! I am a graphic and industrial designer. I help my clients build better businesses by creating joyful digital ideas, products and experiences that connect the hearts of brands to the hearts of their consumers.</p>
+        class="_fs-6-md _fs-6-sm _fs-7"
+      >Welcome to my website! I am a graphic and industrial designer. I help my clients build better businesses by creating joyful digital ideas, products and experiences that connect the hearts of brands to the hearts of their consumers.</p>
     </div>
 
-    <div class="hero row col-10 _mg-at">
+    <div class="hero row col-10 _mgh-at _mgv-12px">
       <div class="row col-10 _mg-at">
         <div
           class="col-lg-12 col-sm-12 col-12 _dp-b indexpic _h-512px-lg _h-512px-md _h-512px-sm _h-256px"
@@ -23,9 +39,9 @@
     </div>
 
     <div class="col-lg-4 col-md-6 col-10 _dp-b _tal-ct _mg-at">
-      <h1 class="_fs-3-md _fs-4">MY WORK</h1>
+      <h1 class="_fs-4-md _fs-5 _pdt-16px">MINNIECC'S WORK</h1>
       <p
-        class="_fs-5-md _fs-6-sm _fs-7"
+        class="_fs-6-md _fs-6-sm _fs-7"
       >My work has been used for: Installations, Creative spaces, Videos, Film and Photo Set, Events, Advertising Campaigns, Media Contents, Magazines, Books, Product Styling, Catalogues, Print on fabric, Wallpapers, Product Collaborations.</p>
     </div>
 
@@ -34,12 +50,12 @@
     </div>
 
     <div class="col-lg-4 col-md-6 col-10 _dp-b _tal-ct _mg-at">
-      <h1 class="_fs-3-md _fs-4">CONTACT</h1>
+      <h1 class="_fs-4-md _fs-5">CONTACT</h1>
       <p
-        class="_fs-5-md _fs-6-sm _fs-7"
+        class="_fs-6-md _fs-6-sm _fs-7"
       >I look forward to get to know you. Please get in touch to arrange an appoinment or request for a quotation.</p>
       <div class="row _pd-24px">
-        <div class="bio-button -dark _mg-at">
+        <div class="bio-button -dark mgbutt _mg-at">
           <nuxt-link class="indexbutt" to="/contact">GET IN TOUCH</nuxt-link>
         </div>
       </div>
@@ -53,8 +69,12 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   font-weight: 600;
-  padding-top: 10%;
+  // padding-top: 10%;
   padding-bottom: 5%;
+  // color: #f26e64;
+  background: -webkit-linear-gradient(#f26e64, #9bd7db);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h2 {
@@ -64,22 +84,24 @@ h2 {
   font-weight: 600;
   padding-top: 10%;
   padding-bottom: 5%;
+  color: #f26e64;
 }
 
 p {
   font-family: "Poppins", sans-serif;
   margin: 0 auto;
-  color: #f26e64;
+  color: #333333;
   padding-bottom: 5%;
 }
 
 .hero {
   background: linear-gradient(-45deg, #f26e64, #ffa69e, #9bd7db);
-  margin: auto;
 }
 
 .mgbutt {
   margin: 16px auto auto auto;
+  border: none;
+  border-radius: 45px;
 }
 
 .indexpic {
@@ -94,15 +116,16 @@ p {
 }
 
 .work {
-  background-color: #2f4858;
+  background-color: white;
 }
 
 .work img {
-  max-width: 100%;
+  max-width: 70%;
   padding: 20%;
 }
 
 .indexbutt {
+  padding: 15px;
   color: white;
   &:hover {
     color: #ffa69e;

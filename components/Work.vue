@@ -33,9 +33,10 @@
   width: 100%;
   margin-top: 10%;
   margin-bottom: 10%;
-  box-shadow: 1px 1px 10px 1px grey;
+  // box-shadow: 1px 1px 10px 1px grey;
   &:hover {
-    box-shadow: 1px 1px 5px grey;
+    box-shadow: 1px 1px 10px 1px grey;
+    transition-duration: 1s;
   }
 }
 </style>

@@ -1,6 +1,20 @@
 <template>
-  <div class="minniec-project col-lg-8 col-md-8 col-sm-10 col-10 _mg-at">WORK IN PROCESS!
-    <h1 class="_fs-3-md _fs-4">PERSONAL PROJECT</h1>
+  <div class="minniec-project col-lg-8 col-md-8 col-sm-10 col-10 _mg-at">
+    WORK IN PROCESS!
+    <!-- Logo Row -->
+    <div class="row">
+      <div class="col-12">
+        <!-- logo -->
+        <div class="_mgt-128px _alit-ct _tal-ct _h-256px-lg _h-256px-md _h-256px-sm _h-128px">
+          <nuxt-link to="/">
+            <img class="_dp-b _mg-at _h-70pct" src="~/assets/images/logomn.png" alt>
+            change to logo with graphic
+          </nuxt-link>
+        </div>
+      </div>
+    </div>
+
+    <!-- <h1 class="_fs-3-md _fs-4">PERSONAL PROJECT</h1> -->
     <!-- INSERT HERO PIC -->
     <div class="row">
       <div class="col-11 _alit-ct _mg-at _h-512px-lg _h-512px-md _h-512px-sm _h-256px _bgcl-white">
@@ -12,6 +26,7 @@
     <!-- UNI -->
     <div class="text col-12 _tal-ct _mg-at _alit-ct _pd-24px">
       <h2 class="_fs-4-md _fs-5">School Projects</h2>
+      <hr class="line col-1">
       <p
         class="_fs-5-md _fs-6-sm _fs-7"
       >My projects during my study at Industrail Design, Chulalongkorn University. Both individual and group projects.</p>
@@ -59,6 +74,7 @@
     <!-- Illustration -->
     <div class="text col-12 _tal-ct _mg-at _alit-ct _pd-24px">
       <h2 class="_fs-4-md _fs-5">Illustration</h2>
+      <hr class="line col-1">
       <p class="_fs-5-md _fs-6-sm _fs-7">Adobe illustrator, Adobe InDesign and Procreate</p>
     </div>
 
@@ -104,6 +120,7 @@
     <!-- Jewellery -->
     <div class="text col-12 _tal-ct _mg-at _alit-ct _pd-24px">
       <h2 class="_fs-4-md _fs-5">Jewellery</h2>
+      <hr class="line col-1">
       <p class="_fs-5-md _fs-6-sm _fs-7">I love interactive media. I code games with python too!</p>
     </div>
 
@@ -167,7 +184,6 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   font-weight: 600;
-  padding: 10% 0 5% 0;
   color: white;
 }
 
@@ -231,10 +247,21 @@ p {
   box-shadow: 0 12px 20px lightgrey;
 }
 
+.bio-button {
+  border: none;
+  border-radius: 50px;
+}
+
 .bio-button p {
+  padding: 0 15px;
   color: white;
   &:hover {
     color: #f26e64;
   }
+}
+
+.line {
+  box-sizing: border-box;
+  border: 1.5px solid white;
 }
 </style>

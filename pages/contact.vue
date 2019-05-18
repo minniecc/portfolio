@@ -1,5 +1,18 @@
 <template>
   <div>
+    <!-- Logo Row -->
+    <div class="row">
+      <div class="col-12">
+        <!-- logo -->
+        <div class="_mgt-128px _alit-ct _tal-ct _h-256px-lg _h-256px-md _h-256px-sm _h-128px">
+          <nuxt-link to="/">
+            <img class="_dp-b _mg-at _h-70pct" src="~/assets/images/logomn.png" alt>
+            change to logo with graphic
+          </nuxt-link>
+        </div>
+      </div>
+    </div>
+
     <h1>Get in touch</h1>
     <div class="row box col-lg-5 col-md-7 col-10 _mg-at _dp-b">
       <form action="mailto:chantchanokch@gmail.com" method="post" enctype="text/plain">
@@ -16,7 +29,7 @@
           <textarea rows="3" name="Message" placeholder="Message"></textarea>
         </div>
         <div class="row _pd-12px">
-          <input class="bio-button -dark _mg-at" type="submit" value="Send">
+          <input class="bio-button -dark _mg-at _pdh-24px" type="submit" value="SEND">
         </div>
       </form>
     </div>
@@ -55,7 +68,7 @@ h1 {
   font-size: 30px;
   font-weight: 600;
   padding: 0 0 3% 0;
-  color: #2f4858;
+  color: #333333;
 }
 
 h2 {
@@ -72,12 +85,12 @@ p {
 }
 
 .box {
-  background-color: #f26e64;
+  background: linear-gradient(-45deg, #f26e64, #ffa69e, #9bd7db);
   padding: 15px;
 }
 
 .socialcontact {
-  background: #2f4858;
+  background: #333333;
   text-align: center;
   margin: 30px auto;
   padding: 10px;
