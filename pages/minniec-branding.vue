@@ -6,8 +6,7 @@
         <!-- logo -->
         <div class="_mgt-128px _alit-ct _tal-ct _h-256px-lg _h-256px-md _h-256px-sm _h-128px">
           <nuxt-link to="/">
-            <img class="_dp-b _mg-at _h-70pct" src="~/assets/images/logomn.png" alt>
-            change to BRANDING with graphic
+            <img class="_dp-b _mg-at _h-70pct" src="~/assets/images/logo-bd.png" alt>
           </nuxt-link>
         </div>
       </div>
@@ -147,7 +146,7 @@ export default {
   components: { Work, Brandcard, Rebrandcard },
   head() {
     return {
-      title: "Minnie C's Branding"
+      title: "Minnie's Branding"
     };
   }
 };

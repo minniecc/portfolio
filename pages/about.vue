@@ -4,11 +4,11 @@
     <div class="row">
       <div class="col-12">
         <!-- logo -->
-        <div class="_mgt-128px _alit-ct _tal-ct _h-256px-lg _h-256px-md _h-256px-sm _h-128px">
+        <div class="logo _mgt-128px _alit-ct _tal-ct _h-256px-lg _h-256px-md _h-256px-sm _h-128px">
           <nuxt-link to="/">
-            <img class="_dp-b _mg-at _h-70pct" src="~/assets/images/logomn.png" alt>
-            change to logo with graphic
+            <img class="mn _dp-b _mg-at _h-70pct" src="~/assets/images/logomn.png" alt>
           </nuxt-link>
+          <div class="shadow"></div>
         </div>
       </div>
     </div>
@@ -93,7 +93,7 @@
 export default {
   head() {
     return {
-      title: "About Minnie"
+      title: "about MinnieCC"
     };
   }
 };
@@ -130,6 +130,86 @@ h2 {
 
 p {
   font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  animation-name: logo;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  position: relative;
+  top: 0;
+}
+
+@keyframes logo {
+  from {
+    transform: translate(0, 0px);
+  }
+  55% {
+    transform: translate(0, 15px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
+}
+
+.mn {
+  animation-name: mn;
+  -webkit-animation-name: mn;
+  -webkit-animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+  -webkit-animation-direction: alternate-reverse;
+}
+
+@keyframes mn {
+  0% {
+    transform: rotate(1.5deg);
+  }
+
+  100% {
+    transform: rotate(-1.5deg);
+  }
+}
+
+.shadow {
+  height: 30px;
+  margin-left: 37.5%;
+  margin-top: 30px;
+  border-radius: 100%;
+  animation-name: shadow;
+  -webkit-animation-name: shadow;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+  background: #eaeaea;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transition-duration: 2s;
+  opacity: 0.4;
+}
+
+@keyframes shadow {
+  0% {
+    background: #ffa69e;
+    width: 150px;
+  }
+  25% {
+    background: #e3e3e3;
+  }
+  50% {
+    background: #d8d8d8;
+  }
+  75% {
+    background: #d1d1d1;
+  }
+  100% {
+    background: #cacaca;
+    width: 170px;
+    margin-left: 37.5%;
+  }
 }
 
 .abouttext {

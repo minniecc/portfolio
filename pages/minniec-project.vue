@@ -7,8 +7,7 @@
         <!-- logo -->
         <div class="_mgt-128px _alit-ct _tal-ct _h-256px-lg _h-256px-md _h-256px-sm _h-128px">
           <nuxt-link to="/">
-            <img class="_dp-b _mg-at _h-70pct" src="~/assets/images/logomn.png" alt>
-            change to logo with graphic
+            <img class="_dp-b _mg-at _h-70pct" src="~/assets/images/logo-pp.png" alt>
           </nuxt-link>
         </div>
       </div>
