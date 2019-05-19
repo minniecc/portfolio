@@ -3,9 +3,9 @@
   "name": "minnie",
   "version": "1.0.0",
   "description": "Minnie's Creation",
-  "author": "Apon Palanuwech",
+  "author": "Minnie Chantpakpimon",
   "fbAppId": "XXXXXXXXXXXX",
-  "apiUrl": "cms.5lab.co",
+  "apiUrl": "",
   "gaId": "UA-XXXXXXXX-X",
   "private": true,
   "browserslist": [

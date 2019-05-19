@@ -219,7 +219,7 @@ export default {
   components: { Work },
   head() {
     return {
-      title: "Minnie C"
+      title: "MINNIE CC"
     };
   }
 };
