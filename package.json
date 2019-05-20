@@ -27,12 +27,6 @@
     "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "dependencies": {
-    "@fortawesome/fontawesome": "^1.1.5",
-    "@fortawesome/fontawesome-free-brands": "^5.0.10",
-    "@fortawesome/fontawesome-pro-light": "^5.0.10",
-    "@fortawesome/fontawesome-pro-regular": "^5.0.10",
-    "@fortawesome/fontawesome-pro-solid": "^5.0.10",
-    "@fortawesome/vue-fontawesome": "^0.0.22",
     "@nuxtjs/axios": "^5.0.0",
     "@nuxtjs/component-cache": "^1.1.1",
     "@nuxtjs/google-analytics": "^2.0.2",
